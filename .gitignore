@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+pip-wheel-metadata/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.*
+!*.example
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Cache / artifacts
+.cache/
+.mypy_cache/
+.pytest_cache/
+
