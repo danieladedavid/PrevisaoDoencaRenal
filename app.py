@@ -8,7 +8,7 @@ import sys
 # Config
 # ----------------------------
 st.set_page_config(
-    page_title="Predição de Doença Renal (DRC)",
+    page_title="Predição de Doença Renal Crônica (DRC)",
     page_icon="🩺",
     layout="wide",
 )
@@ -266,4 +266,10 @@ with tab2:
 # ----------------------------
 with tab3:
     st.subheader("ℹ️ Como este app funciona")
-    st.write
+    st.write(
+        "Este app usa um modelo de Machine Learning treinado para classificar o risco de "
+        "Doença Renal Crônica (DRC) a partir de 8 variáveis clínicas. Preencha os campos "
+        "na aba de predição individual ou envie um CSV na aba de lote para receber as "
+        "predições. A saída `ckd=1` indica maior risco, enquanto `ckd=0` indica ausência "
+        "de indicativo de DRC."
+    )

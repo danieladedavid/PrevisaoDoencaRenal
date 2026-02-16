@@ -8,7 +8,7 @@ Aplicação de **Machine Learning** para predição de **Doença Renal Crônica 
 ├─ app.py                      # App Streamlit
 ├─ PrevDoencaRenais_notebook.ipynb
 ├─ Kidney_data.csv             # Dataset
-├─ RandomForest.pkl            # Modelo 
+├─ Maquina_Preditiva.pkl       # Modelo 
 ├─ requirements.txt
 ├─ .gitignore
 └─ LICENSE
