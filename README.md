@@ -8,7 +8,7 @@ Aplicação de **Machine Learning** para predição de **Doença Renal Crônica 
 ├─ app.py                      # App Streamlit
 ├─ PrevDoencaRenais_notebook.ipynb
 ├─ Kidney_data.csv             # Dataset
-├─ RandomForest.pkl            # Modelo 
+├─ Maquina_Preditiva.pkl       # Modelo 
 ├─ requirements.txt
 ├─ .gitignore
 └─ LICENSE
@@ -27,7 +27,7 @@ python -m venv .venv
 
 **macOS/Linux**
 ```bash
-python3 -m venv .venv
+python3 -m venv.venv
 source .venv/bin/activate
 ```
 
@@ -44,3 +44,6 @@ streamlit run app.py
 
 ## 📝 Licença
 Este projeto está sob a licença **MIT** — veja o arquivo `LICENSE`.
+
+## Autoria
+CDPRO - Daniela de David
